@@ -3,7 +3,7 @@
 This is a PyTorch implementation of "[TransXNet: Learning Both Global and Local Dynamics with a Dual Dynamic Token Mixer for Visual Recognition](https://arxiv.org/abs/2310.19380)".
 
 # Introduction
-```TransXNet``` is a CNN-Transformer hybrid vision backbone that can modeling both global and local dynamics with a Dual Dynamic Token Mixer (D-Mixer), achieving superior performance over both CNN and Transformer-based models.
+```TransXNet``` is a CNN-Transformer hybrid vision backbone that can model both global and local dynamics with a Dual Dynamic Token Mixer (D-Mixer), achieving superior performance over both CNN and Transformer-based models.
 <center> 
 <img src="assets/architecture.png" width="70%" height="auto">
 </center>
@@ -11,7 +11,7 @@ This is a PyTorch implementation of "[TransXNet: Learning Both Global and Local 
 # Image Classification
 
 ## 1. Requirements
-We highly suggest using provided dependencies to ensure reproducibility:
+We highly suggest using our provided dependencies to ensure reproducibility:
 ```
 # Environments:
 python==3.8.15
