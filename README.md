@@ -14,9 +14,10 @@ This is a PyTorch implementation of "[TransXNet: Learning Both Global and Local 
 We highly suggest using our provided dependencies to ensure reproducibility:
 ```
 # Environments:
-python==3.8.15
 cuda==11.6
+python==3.8.15
 # Packages:
+mmcv==1.7.1
 timm==0.6.12
 torch==1.13.1
 torchvision==0.14.1
@@ -81,8 +82,11 @@ If you find this project useful for your research, please consider citing:
 ```
 
 # Acknowledgment
-Our implementation is mainly based on the following codebases. We gratefully thank the authors for their wonderful works.   
-> [pytorch-image-models](https://github.com/rwightman/pytorch-image-models)   
-> [poolformer](https://github.com/sail-sg/poolformer)   
+Our implementation is mainly based on the following codebases. We gratefully thank the authors for their wonderful works.
+> [poolformer](https://github.com/sail-sg/poolformer)  
+> [pytorch-image-models](https://github.com/rwightman/pytorch-image-models)    
 > [mmdetection](https://github.com/open-mmlab/mmdetection)     
 > [mmsegmentation](https://github.com/open-mmlab/mmsegmentation)
+
+# Contact
+If you have any questions, please feel free to [create issues](https://github.com/LMMMEng/TransXNet/issues) or contact me at lmzmm.0921@gmail.com.
