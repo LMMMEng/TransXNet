@@ -19,7 +19,7 @@ mmsegmentation==0.30.0
 
 ## 2. Data Preparation
 
-Prepare ADE20K according to the [guidelines](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/dataset_prepare.md#prepare-datasets).
+Prepare ADE20K according to the [guidelines](https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/user_guides/2_dataset_prepare.md).
 
 
 ## 3. Main Results on ADE20K with Pretrained Models
