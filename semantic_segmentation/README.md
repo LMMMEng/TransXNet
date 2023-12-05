@@ -4,9 +4,10 @@ For details, please address "[TransXNet: Learning Both Global and Local Dynamics
 
 ## 1. Requirements
 
-We highly suggest using our provided dependencies to ensure reproducibility:.
+We highly suggest using our provided dependencies to ensure reproducibility:   
 ```
 # Environments:
+cuda==11.3
 python==3.8.15
 # Packages:
 mmcv==1.7.1
@@ -16,7 +17,7 @@ torchvision==0.13.1
 mmsegmentation==0.30.0
 ```
 
-## 2. Data Preparation:
+## 2. Data Preparation
 
 Prepare ADE20K according to the [guidelines](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/dataset_prepare.md#prepare-datasets).
 
