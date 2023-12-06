@@ -68,7 +68,7 @@ python3 validate.py \
 ```
 
 # Object Detection and Semantic Segmentation
-> Object Detection (Comming Soon)    
+> [Object Detection](object_detection)    
 > [Semantic Segmentation](semantic_segmentation)
 
 # Citation
