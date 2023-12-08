@@ -46,11 +46,11 @@ bash dist_train.sh configs/mask_rcnn_transx_t_fpn_1x_coco.py 8
 ## 5. Validation
 To evaluate ``TransXNet-T + RetinaNet`` models on COCO val2017, run:
 ```
-dist_test.sh configs/retinanet_transx_t_fpn_1x_coco.py /path/to/checkpoint_file 8 --out results.pkl --eval bbox
+bash dist_test.sh configs/retinanet_transx_t_fpn_1x_coco.py /path/to/checkpoint_file 8 --out results.pkl --eval bbox
 ```
 To evaluate ``TransXNet-T + Mask R-CNN`` models on COCO val2017, run:
 ```
-dist_test.sh configs/mask_rcnn_transx_t_fpn_1x_coco.py /path/to/checkpoint_file 8 --out results.pkl --eval bbox segm
+bash dist_test.sh configs/mask_rcnn_transx_t_fpn_1x_coco.py /path/to/checkpoint_file 8 --out results.pkl --eval bbox segm
 ```
 
 ## Citation
