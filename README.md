@@ -76,7 +76,7 @@ If you find this project useful for your research, please consider citing:
 ```
 @article{lou2023transxnet,
   title={TransXNet: Learning Both Global and Local Dynamics with a Dual Dynamic Token Mixer for Visual Recognition},
-  author={Lou, Meng and Zhou, Hong-Yu and Yang, Sibei and Yu, Yizhou},
+  author={Meng Lou and Shu Zhang and Hong-Yu Zhou and Chuan Wu and Sibei Yang and Yizhou Yu},
   journal={IEEE Transactions on Neural Networks and Learning Systems},
   year={2025}
 }
@@ -84,10 +84,10 @@ If you find this project useful for your research, please consider citing:
 
 # Acknowledgment
 Our implementation is mainly based on the following codebases. We gratefully thank the authors for their wonderful works.
-> [poolformer](https://github.com/sail-sg/poolformer)  
-> [pytorch-image-models](https://github.com/rwightman/pytorch-image-models)    
+> [poolformer](https://github.com/sail-sg/poolformer)    
 > [mmdetection](https://github.com/open-mmlab/mmdetection)     
-> [mmsegmentation](https://github.com/open-mmlab/mmsegmentation)
+> [mmsegmentation](https://github.com/open-mmlab/mmsegmentation)     
+> [pytorch-image-models](https://github.com/rwightman/pytorch-image-models)  
 
 # Contact
 If you have any questions, please feel free to [create issues](https://github.com/LMMMEng/TransXNet/issues) or contact me at lmzmm.0921@gmail.com.
