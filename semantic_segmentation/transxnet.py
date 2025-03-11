@@ -625,8 +625,8 @@ class TransXNet(nn.Module):
         # load pre-trained model
         if self.fork_feat and (self.init_cfg is not None or pretrained is not None):
             self.init_weights()
-            self = nn.SyncBatchNorm.convert_sync_batchnorm(self)
-            self.train()
+            if torch.distributed.is_initialized():
+                self = nn.SyncBatchNorm.convert_sync_batchnorm(self)
 
     # init for image classification
     def _init_model_weights(self, m):
