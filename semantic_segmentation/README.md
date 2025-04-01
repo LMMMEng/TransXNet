@@ -59,7 +59,7 @@ If you find this project useful for your research, please consider citing:
 ```
 @article{lou2023transxnet,
   title={TransXNet: Learning Both Global and Local Dynamics with a Dual Dynamic Token Mixer for Visual Recognition},
-  author={Meng Lou and Shu Zhang and Hong-Yu Zhou and Chuan Wu and Sibei Yang and Yizhou Yu},
+  author={Meng Lou and Shu Zhang and Hong-Yu Zhou and Sibei Yang and Chuan Wu and Yizhou Yu},
   journal={IEEE Transactions on Neural Networks and Learning Systems},
   year={2025}
 }
