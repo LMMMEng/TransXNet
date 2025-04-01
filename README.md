@@ -3,7 +3,7 @@
 This is an official PyTorch implementation of "[TransXNet: Learning Both Global and Local Dynamics with a Dual Dynamic Token Mixer for Visual Recognition](https://arxiv.org/abs/2310.19380)".
 
 # Introduction
-```TransXNet``` is a CNN-Transformer hybrid vision backbone that can model both global and local dynamics with a Dual Dynamic Token Mixer (D-Mixer), achieving superior performance over both CNN and Transformer-based models.
+**TransXNet** is a CNN-Transformer hybrid vision backbone that can model both global and local dynamics with a Dual Dynamic Token Mixer (D-Mixer), achieving superior performance over both CNN and Transformer-based models.
 <center> 
 <img src="assets/architecture.png" width="70%" height="auto">
 </center>
@@ -23,7 +23,7 @@ torch==1.13.1
 torchvision==0.14.1
 ```
 ## 2. Data Preparation
-[ImageNet](https://image-net.org/) with the following folder structure, you can extract ImageNet by this [script](https://gist.github.com/BIGBALLON/8a71d225eff18d88e469e6ea9b39cef4).
+Prepare [ImageNet](https://image-net.org/) with the following folder structure, you can extract ImageNet by this [script](https://gist.github.com/BIGBALLON/8a71d225eff18d88e469e6ea9b39cef4).
 
 ```
 │imagenet/
@@ -48,13 +48,14 @@ torchvision==0.14.1
 | TransXNet-T | 224x224    | 1.8       | 12.8       | 81.6       | [model](https://github.com/LMMMEng/TransXNet/releases/download/v1.0/transx-t.pth.tar)     |
 | TransXNet-S | 224x224    | 4.5       | 26.9       | 83.8       | [model](https://github.com/LMMMEng/TransXNet/releases/download/v1.0/transx-s.pth.tar)     |
 | TransXNet-B | 224x224    | 8.3       | 48.0       | 84.6       | [model](https://github.com/LMMMEng/TransXNet/releases/download/v1.0/transx-b.pth.tar)     |
+| TransXNet-B | 384x384    | 24.2       | 48.0       | 85.5       | [model](https://github.com/LMMMEng/TransXNet/releases/download/v1.0/transx-b-384.pth.tar)     |
 
 ## 4. Train
 To train ```TransXNet``` models on ImageNet-1K with 8 gpus (single node), run:
 ```
-bash scripts/train_tiny.sh # train TransXNet-T
+bash scripts/train_tiny.sh  # train TransXNet-T
 bash scripts/train_small.sh # train TransXNet-S
-bash scripts/train_base.sh # train TransXNet-B
+bash scripts/train_base.sh  # train TransXNet-B
 ```
 
 ## 5. Validation
@@ -76,7 +77,7 @@ If you find this project useful for your research, please consider citing:
 ```
 @article{lou2023transxnet,
   title={TransXNet: Learning Both Global and Local Dynamics with a Dual Dynamic Token Mixer for Visual Recognition},
-  author={Meng Lou and Shu Zhang and Hong-Yu Zhou and Chuan Wu and Sibei Yang and Yizhou Yu},
+  author={Meng Lou and Shu Zhang and Hong-Yu Zhou and Sibei Yang and Chuan Wu and Yizhou Yu},
   journal={IEEE Transactions on Neural Networks and Learning Systems},
   year={2025}
 }
