@@ -1,6 +1,9 @@
-# [TNNLS 2025] TransXNet: Learning Both Global and Local Dynamics with a Dual Dynamic Token Mixer for Visual Recognition
+# [[TNNLS 2025] TransXNet: Learning Both Global and Local Dynamics with a Dual Dynamic Token Mixer for Visual Recognition](https://doi.org/10.1109/TNNLS.2025.3550979)
 
-This is an official PyTorch implementation of "[TransXNet: Learning Both Global and Local Dynamics with a Dual Dynamic Token Mixer for Visual Recognition](https://arxiv.org/abs/2310.19380)".
+> This is an official PyTorch implementation of "[TransXNet: Learning Both Global and Local Dynamics with a Dual Dynamic Token Mixer for Visual Recognition](https://doi.org/10.1109/TNNLS.2025.3550979)".
+> 
+> 📝 Paper: [Journal Version](https://doi.org/10.1109/TNNLS.2025.3550979) | [arXiv Version](https://arxiv.org/abs/2310.19380)
+
 
 # Introduction
 **TransXNet** is a CNN-Transformer hybrid vision backbone that can model both global and local dynamics with a Dual Dynamic Token Mixer (D-Mixer), achieving superior performance over both CNN and Transformer-based models.
